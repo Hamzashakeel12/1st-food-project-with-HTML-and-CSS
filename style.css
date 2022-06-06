@@ -1,0 +1,580 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* ---------Header designing------     */
+
+.header{
+    background-color: rgb(31, 31, 31);
+    height: 56px;
+}
+.h-text{
+display: inline;
+}
+.h-text-div{
+    display: inline;
+}
+.fa-envira{
+    padding-left: 40px;
+    padding-top: 20px;
+    color: rgb(0, 231, 0);
+    font-size: 25px;
+}
+.h-text{
+    margin-bottom: 20px;
+    margin-left: -6px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.h-span{
+    color:rgb(0, 231, 0) ;
+    font-weight: 200;
+}
+.header-btn{
+    margin-top: 10px;
+    margin-right: 16px;
+    width: 110px;
+}
+.h-btn{
+    width: 100px;
+    height: 36px;
+    background-color:rgb(66, 190, 66);
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(45, 202, 45) ;
+    cursor: pointer;
+}
+.header-btn{
+    float: right;
+}
+
+/*  -------------------    HEADER END  ------------------   */
+
+
+/*     NAVIGATION START   */
+
+
+
+.nav-div{
+    width:100%;
+    height: 110px;
+    display: flex;
+    border-bottom: 1px solid rgba(228, 209, 209, 0.952);
+}
+.nav{
+    width: 100%;
+}
+.nav-logo-div{
+  float: left;
+  margin-top: 16px;
+  margin-left: 100px;
+  
+    
+}
+.nav-link-div{
+    float: left;
+    margin-left: 186px;
+    margin-top: 40px;
+
+}
+.nav-link-div ul li{
+    display:inline ;
+}
+.nav-link-div ul li a{
+    text-decoration:none ;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    padding-right: 40px;
+    letter-spacing: 2px;
+}
+.nav-btn{
+    margin-left: 160px;
+    margin-top:30px ;
+    width: 140px;
+    height: 44px;
+    color: black;
+    border: 1px solid rgba(228, 209, 209, 0.952);
+    background-color: white;
+    border-radius: 0%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    transition-duration: 300ms;
+}
+.nav-btn:hover{
+    background-color: gray;
+    color: white;
+}
+.nav-div::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.fa-cubes{
+    color: rgba(0, 231, 0, 0.596);
+    display: inline;
+    font-size: 54px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.nav-text{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.nav-link a{
+    transition-duration: 100ms;
+}
+.nav-link a:hover{
+   color: rgb(253, 45, 45);
+}
+.nav-link a:active{
+    font-weight: 700;
+}
+
+/* ----------    NAV ended ---------       */
+
+
+/* -------------section 1 content ----------- */
+.s-1{
+    height: 100vh;
+}
+.s1-text{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 458px;
+    padding-top: 100px;
+}
+.p-div p{
+   letter-spacing: 5px;
+   font-size: 14px;
+   color: rgba(119, 118, 118, 0.952);
+   font-weight: 400;
+}
+.h-div{
+    padding-top:34px ;
+}
+.h-div p{
+    font-size: 70px;
+    font-weight: 300;
+}
+.h-div p span{
+    color:rgb(255, 85, 85) ;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p2-div{
+    padding-top: 32px;
+    color:  rgba(134, 133, 133, 0.952);
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 14px;
+}
+.s1-btn{
+    margin-left: 0;
+    width: 180px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* -----section 2 start-------- */
+
+
+.s-2{
+    height: 100vh;
+    margin-top: 40px;
+}
+ .video-div{
+    width: 100%;
+    height: auto;
+} 
+.s2-video{
+    width: 100%;
+}
+
+
+
+
+/* ------section 3 starts---- */
+
+.s-3{
+    height: 100vh;
+}
+.s3-text-div{
+    text-align: center;
+    margin-top: 40px;
+}
+.s3-p p{
+    color:rgba(134, 133, 133, 0.952) ;
+    letter-spacing: 7px;
+}
+.s3-h p{
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.s3-h p span{
+    color:rgb(255, 85, 85) ;
+}
+.card-div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    margin-top:80px ;
+}
+.card{
+    border: 2px solid whitesmoke;
+    width: 22%;
+    height: 200px;
+    text-align: center;
+    transition-duration: 400ms;
+}
+.card .h{
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 22px;
+}
+.card .p{
+    padding-top: 30px;
+    font-weight: 300;
+    color: rgba(126, 126, 126, 0.952);
+    line-height: 30px;
+}
+.card:hover{
+    background-color:whitesmoke ;
+}
+.card .p::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.s3-low-text{
+    width: 40%;
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.name{
+    margin-top: 20px;
+}
+.sign{
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+}
+.sign img{
+    width: 100%;
+}
+
+/* -------section 4 start-------- */
+
+.s-4{
+    height: 100vh;
+    margin-top: 200px;
+}
+.s4-container{
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 86%;
+    height: 80%;
+    border: 1px solid rgba(235, 232, 232, 0.952);
+    justify-content: space-evenly;
+}
+.s4-text{
+    margin-left: -600px;
+    float: left;
+    width: 35%;
+    text-align: left;
+}
+.s4-text .p{
+    margin-top:60px ;
+}
+.s4-text .p p{
+    letter-spacing: 6px;
+    color: rgba(134, 133, 133, 0.952);
+    font-size: 14px;
+    font-weight: 400;
+}
+.s4-text .h{
+    margin-top: 30px;
+}
+.s4-text .h p{
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.s4-img1{
+    position: absolute;
+    bottom: -90px;
+    float: right;
+    margin-left: 120px;
+    width: 22%;
+    height: 90%;
+    transition-duration: 300ms;
+}
+.s4-img1 img{
+    width: 100%;
+    height: 100%;
+}
+.s4-img1:hover{
+    width: 24%;
+    height: 490px;
+}
+.s4-img2:hover{
+    width: 24%;
+    height: 490px;
+}
+.s4-img2{
+    position: absolute;
+    top: -90px;
+    margin-left: 800px;
+    float: right;
+    width: 22%;
+    height: 90%;
+    transition-duration: 300ms;
+}
+.s4-img2 img{
+    height: 100%;
+    width: 100%;
+}
+.s4-anim p{
+    align-items: center;
+    text-shadow: rgba(12, 12, 12, 0.918);
+    letter-spacing: 4px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 14px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(247, 26, 26);
+}
+.s4-anim .s1-btn{
+    margin-left: 56px;
+    margin-top: 40px;
+}
+.s4-anim{
+    
+    position: absolute;
+    top: 34%;  
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.678);
+    transition-duration: 400ms;
+    z-index: 10;
+    opacity: 0;
+}
+.s4-img1:hover .s4-anim{
+    display: block;
+    top: 0;
+    opacity: 100%;
+    height: 100%;
+}
+.s4-img2:hover .s4-anim{
+    display: block;
+    top: 0;
+    opacity: 100%;
+    height: 100%;
+}
+
+/* ----------Section 4 ended------- */
+
+.s-5{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.s5-div{
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  width: 90%;
+  height: 210px;
+  margin: auto;
+  background-color: rgb(247, 247, 247);
+}
+.s5-t1{
+    margin-left: 86px;
+    width: 20%;
+    float: left;
+}
+.s5-t2{
+    width: 20%;
+    float: right;
+}
+.s5-t3{
+    width: 20%;
+    float: right;
+}.s5-t4{
+    width: 20%;
+    float: right;
+}
+.s5-n{
+    font-size: 46px;
+    font-weight: 300;
+}
+.s5-n sup{
+    font-size: 28px;
+    font-weight: 100;
+    color: rgb(207, 207, 207);
+}
+.s5-p{
+    padding-top: 18px;
+    font-size: 14px;
+    color: rgb(196, 196, 196);
+    letter-spacing: 2px;
+}
+
+
+
+/* --------section 5 ended-------- */
+
+
+.s-6{
+    height: 90vh;
+    width: 100%;
+    background-color:#5F727A;
+}
+.s6-div{
+    color: white;
+    width: 60%;
+    border: 2px solid #5F727A;;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+.p6{
+    margin-top: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.h6{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.select6{
+    margin-top: 50px;
+}
+.select6 select{
+    width: 90%;
+    height: 50px;
+    background-color: inherit;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.877);
+    padding-left: 14px;
+}
+.select6 select option{
+    background-color: #5F727A
+}
+.date-div{
+    justify-content: space-between;
+    display: flex;
+    margin-left:40px;
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+}
+.date{
+    float: left;
+    width: 47%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.877);
+}
+.date p{
+    padding-top: 12px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 14px;
+}
+.time{
+    float: right;
+    width: 47%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.74);
+}
+.time p{
+    padding-top: 12px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 14px;
+}
+.s6-btn{
+    width: 110px;
+    background-color: white;
+    color: rgb(0, 37, 78);
+    transition-duration: 300ms;
+}
+.s6-btn:hover{
+    background-color: black;
+    color: white;
+}
+/* -----------section 6 end----- */
+
+
+.s7-img1{
+    position: absolute;
+    top: -90px;
+    margin-left: -800px;
+    float: right;
+    width: 22%;
+    height: 90%;
+    transition-duration: 300ms;   
+}
+
+.s7-img2{
+    position: absolute;
+    top: 140px;
+    margin-left: -200px;
+    width: 22%;
+    height: 90%;
+    transition-duration: 300ms;
+}
+.s7-text{
+    margin-left: 560px;
+    width: 35%;
+    text-align: right;
+    text-align: start;
+}
+.s7-text .p p{
+    font-size: 38px;
+    font-weight: 100;
+    color: lightgrey;
+}
+.s7-text .h2 p{
+    font-size: 26px;
+    font-weight: 300;
+} 
+
+
+/* -------section 7 end------------ */
